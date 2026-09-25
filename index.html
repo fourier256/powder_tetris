@@ -1,120 +1,14 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>HTML Test</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        html, body {
-            margin: 0;
-            width: 100%;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            background: #181818;
-            color: white;
-        }
-
-        .container {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 24px;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 32px;
-        }
-
-        p {
-            color: #aaa;
-        }
-
-        .shapes {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-        }
-
-        .circle {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background: #4285f4;
-        }
-
-        .square {
-            width: 80px;
-            height: 80px;
-            background: #ea4335;
-            transform: rotate(15deg);
-        }
-
-        .triangle {
-            width: 0;
-            height: 0;
-            border-left: 45px solid transparent;
-            border-right: 45px solid transparent;
-            border-bottom: 80px solid #34a853;
-        }
-
-        button {
-            padding: 14px 28px;
-            border: 0;
-            border-radius: 10px;
-            background: #fbbc05;
-            color: #222;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        #result {
-            min-height: 24px;
-            color: #fbbc05;
-        }
-    </style>
-</head>
-
-<body>
-
-<div class="container">
-
-    <h1>HTML 테스트</h1>
-
-    <p>Android WebView / Capacitor 테스트 페이지</p>
-
-    <div class="shapes">
-        <div class="circle"></div>
-        <div class="square"></div>
-        <div class="triangle"></div>
-    </div>
-
-    <button onclick="changeText()">
-        클릭 테스트
-    </button>
-
-    <div id="result">
-        버튼을 눌러보세요.
-    </div>
-
-</div>
-
-<script>
-    function changeText() {
-        document.getElementById("result").textContent =
-            "JavaScript도 정상적으로 작동합니다!";
-    }
-</script>
-
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>powder_control_sector</title>
+    <script type="module" crossorigin src="./assets/index-Cc4R-NsT.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B7ePlplW.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
